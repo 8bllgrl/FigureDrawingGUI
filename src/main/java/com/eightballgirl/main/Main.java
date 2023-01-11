@@ -7,7 +7,7 @@ public class Main {
     //later i can change and pass in the intervals inside of here.
     public static void main(String[] args) {
         int defaultIntervallength = 120000;
-        boolean quickStart = true;
+        boolean quickStart = false;
         new Application(defaultIntervallength,quickStart);
     }
 }

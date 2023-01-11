@@ -13,7 +13,7 @@ import java.awt.*;
 public class Application implements Runnable {
 
     private int FPS = 10;
-    private final int TICKSPEED = 1000;
+    private final int TICKSPEED = 200;
 
 
     public ApplicationRenderer appRender;
@@ -22,7 +22,6 @@ public class Application implements Runnable {
     public Screen screen;
     public final MouseHandler mouseHandler;
     public final KeyboardHandler keyboardHandler;
-    public static boolean updateOn = false;
     Thread appThread;
 
 
